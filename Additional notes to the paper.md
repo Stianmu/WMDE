@@ -56,4 +56,4 @@ coverage scenarios’. The configuration parameters C in the dataset contain var
 
 ## Details about the experimental settings
 
-In this setup, the model uses an embedding dimension (embed_dim) of 128, three layers (n_layer), and one attention head (n_head). The activation function is set to ReLU (activation_function), and a dropout rate of 0.1 (dropout) is applied to avoid overfitting. These settings are optimized for performance on the Nvidia RTX 4090 GPU, complementing the use of Adam optimizer with a learning rate of 0.0001.
+In this configuration, the model uses an embedding dimension (embed_dim) of 128, three layers (n_layer), 16 attention head (n_head), and ReLU as the activation function (activation_function). A dropout rate of 0.1 (dropout) is applied to prevent overfitting. The batch size is set to 8 (batch_size). These settings are tailored for performance on the Nvidia RTX 4090 GPU, working with the Adam optimizer at a learning rate of 0.0001.
