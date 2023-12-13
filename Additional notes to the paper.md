@@ -1,10 +1,10 @@
 # WMDE
 ## Details about the dataset  
 
-We have applied WMDE in real-world cellular networks in China Mobile. Based on the handover parameter adjusting effect, we can support the operation staff in decisionmaking for RAN parameter adjustment.
+We have applied WMDE in real-world cellular networks in China Mobile. Based on WMDE, integrating the Transformer-Informed Adjustment Decision Net (TADNet) and the Causal Adjustment Effect Evaluation Net (CAENet), we can support the operation staff in decision-making for RAN parameter adjustment.
 
 Our dataset, collected by China Mobile in the Shanxi region, consists of genuine historical RAN parameter adjustments and network performance metrics. This dataset encompasses a period of two weeks, with data sampled at 15-minute intervals. It includes 42 types of features in the state attributes S, such as 
-coverage scenarios’. The configuration parameters C in the dataset contain variables like ‘reference signal power’. The goal metrics G include critical performance indicators such as ‘uplink traffic’ and ‘downlink traffic’.
+coverage scenarios’. The configuration parameters C in the dataset contain variables like ‘reference signal power’. The goal metrics G include critical performance indicators such as ‘uplink traffic’ and ‘downlink traffic’. Details are as follows.
 
 | Indicator name | Indicator Chinese name | Indicator type |
 |----------------|------------------------|----------------|
